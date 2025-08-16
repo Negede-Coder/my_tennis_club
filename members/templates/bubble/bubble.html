@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continuous Bubble Effect</title>
+    <link rel="stylesheet" href="bubble.css">
+</head>
+<body>
+    {% for x in fruits %}
+  <h1>{{ x }}</h1>
+{% endfor %}
+
+<p>In views.py you can see what the fruits variable looks like.</p>
+    <div class="bubble-container"></div>
+    <script src="bubble.js"></script>
+</body>
+</html>
